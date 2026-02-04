@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Surprise 🎁</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Music Button & Audio -->
+  <button class="music-btn" onclick="toggleMusic()">🔊 Music</button>
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <header>
+    <h1>One Last Surprise 🎁</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="letter.html">Love Letter</a>
+    <a href="memories.html">Memories</a>
+    <a href="surprise.html">Surprise</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Click the button below 💖</h2>
+    <button onclick="showSurprise()">Reveal My Surprise 💍</button>
+
+    <div id="surpriseContent" class="hidden">
+      <img src="images/surprise.jpg" alt="My Surprise" class="surprise-img">
+      <p>
+        I promise to love you, support you, and stand beside you in every chapter of our life.
+        You are my forever. ❤️
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>You are my greatest blessing 💕</p>
+  </footer>
+
+</body>
+</html>
